@@ -120,47 +120,4 @@ function deleteBook(idx) {
   displayBooks();
 }
 
-// function toggleRead() {
-//   if (this.textContent == 'Mark Book as Unread') {
-//     this.textContent = 'Mark Book as Read';
-//     myLibrary[this.value].read = false;
-//   } else {
-//     this.textContent = 'Mark Book as Unread';
-//     myLibrary[this.value].read = true;
-//   }
-//   displayBooks();
-// }
-
-// function displayBook(book) {
-//   const cardsEle = document.getElementById('cards');
-//   const cardEle = document.createElement('div');
-//   const bookEle = document.createElement('div');
-//   const authorEle = document.createElement('div');
-//   const pagesEle = document.createElement('div');
-//   const readEle = document.createElement('div');
-
-//   bookEle.innerHTML = book.title;
-//   authorEle.innerHTML = `Author: ${book.author}`;
-//   pagesEle.innerHTML = `Pages: ${book.pages}`;
-//   readEle.innerHTML = `Read: ${book.read}`;
-
-//   const deleteBtn = document.createElement('button');
-//   deleteBtn.className = 'delete-btn';
-//   deleteBtn.innerText = 'Delete';
-//   deleteBtn.dataset.idx = i;
-
-//   cardEle.appendChild(bookEle);
-//   cardEle.appendChild(authorEle);
-//   cardEle.appendChild(pagesEle);
-//   cardEle.appendChild(readEle);
-//   cardEle.appendChild(deleteBtn);
-//   cardEle.setAttribute('data-idx', i);
-//   cardsEle.appendChild(cardEle);
-//   cardsEle.appendChild(document.createElement('br'));
-// }
-
 displayBooks();
-
-// console.log(theHobbit.info());
-// console.log(dune.info());
-// console.log(myLibrary[0].title);
