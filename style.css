@@ -1,0 +1,22 @@
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: none;
+  margin: 20px 0 20px;
+}
+
+.viewable {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-book {
+  display: flex;
+  justify-content: center;
+}
